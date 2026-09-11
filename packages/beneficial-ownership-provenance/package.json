@@ -1,0 +1,13 @@
+{
+  "name": "@sandipants/beneficial-ownership-provenance",
+  "version": "1.0.0",
+  "description": "Reusable ownership, control and provenance graph with cached rule evaluation for web apps.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": { ".": "./index.js" },
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["beneficial-ownership", "provenance", "ownership-control", "bods", "web-app", "cache"]
+}
